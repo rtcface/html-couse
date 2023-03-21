@@ -1,8 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* Header y Navegacion */
 .site-name {
-font-size: 30px;
-color: rgb(0 0 0);
+  font-size: 30px;
+  color: rgb(0 0 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .site-name span {
-    color: #9C9FA9;
+  color: #9c9fa9;
+}
+
+.main-nav{
+  /* border-color: #e1e1e1;
+  border-top-style: solid;
+  border-width: 1px; */
+  border-top: 1px solid #e1e1e1;
+  padding: 25px 0 30px 20px;
+}
+
+.about {
+  width: 300px;
+  padding: 25px;
+  background-color: darkblue;
 }
