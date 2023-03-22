@@ -13,6 +13,10 @@ a {
   color: #000;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
 
 /* Header y Navegacion */
 .site-name {
@@ -27,7 +31,7 @@ a {
   color: #9c9fa9;
 }
 
-.contenedor-nav {
+.container-nav {
   border-top: 1px solid #e1e1e1;
 }
 .main-nav{
@@ -53,7 +57,32 @@ a {
   background-size: cover;
 }
 
-.contenedor {
+.container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.list-categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.category a {
+  text-align: center;
+  display: block;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.category a:hover {
+  background-color: #037bc0;
+  color: #fff;
+  font-style: oblique;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
