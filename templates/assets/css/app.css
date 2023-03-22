@@ -20,22 +20,40 @@ a {
   color: rgb(0 0 0);
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .site-name span {
   color: #9c9fa9;
 }
 
+.contenedor-nav {
+  border-top: 1px solid #e1e1e1;
+}
 .main-nav{
   /* border-color: #e1e1e1;
   border-top-style: solid;
-  border-width: 1px; */
-  border-top: 1px solid #e1e1e1;
-  padding: 25px 0 30px 20px;
+  border-width: 1px; */ 
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .about {
   width: 300px;
   padding: 25px;
   background-color: darkblue;
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
 }
